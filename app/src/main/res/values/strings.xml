@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Bloodweiser</string>
+    <string name="hello_first_fragment">THIS IS FIRST FRAGMENT</string>
+    <string name="hello_second_fragment">THIS IS SECOND FRAGMENT</string>
+    <string name="button_to_home">HOME</string>
+    <string name="button_to_second">KICK-OFF</string>
+    <string name="button_to_third">GLOSSARY</string>
+    <string name="button_to_fourth">ROSTER</string>
+    <string name="weather_button">WEATHER</string>
+    <string name="linemen_button">LINEMEN</string>
+    <string name="khorngor_button">KHORNGOR</string>
+    <string name="bloodseeker_button">BLOODSEEKER</string>
+    <string name="bloodspawn_button">BLOODSPAWN</string>
+    <string name="roster_position">POSITION</string>
+    <string name="roster_movement">MA</string>
+    <string name="roster_strength">ST</string>
+    <string name="roster_agility">AG</string>
+    <string name="roster_pass">PA</string>
+    <string name="roster_armour">AV</string>
+    <string name="roster_cost">COST</string>
+    <string name="roster_skills">SKILLS</string>
+    <string name="reroll_button">Re-Rolls (0)</string>
+    <string name="total_string">0</string>
+</resources>

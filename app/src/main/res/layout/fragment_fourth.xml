@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".FourthFragment">
+
+    <Button
+        android:id="@+id/homeButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="701dp"
+        android:layout_marginEnd="302dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/button_to_home" />
+
+    <Button
+        android:id="@+id/bloodspawnBtn"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="590dp"
+        android:text="@string/bloodspawn_button"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/bloodseekerBtn"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="243dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="678dp"
+        android:text="@string/bloodseeker_button"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/linemenBtn"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="237dp"
+        android:layout_marginBottom="674dp"
+        android:text="@string/linemen_button"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/khorngorBtn"
+        android:layout_width="223dp"
+        android:layout_height="92dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="237dp"
+        android:layout_marginBottom="590dp"
+        android:minHeight="48dp"
+        android:text="@string/khorngor_button"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/rerollBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="697dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="7dp"
+        android:text="@string/reroll_button"
+        android:textSize="11sp" />
+
+    <TableLayout
+        android:id="@+id/rosterTable"
+        android:layout_width="376dp"
+        android:layout_height="423dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="231dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="76dp">
+
+        <TableRow
+            android:id="@+id/titleRow"
+            android:background="@color/gore">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:padding="3dip"
+                android:text="@string/roster_position"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/roster_movement"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/roster_strength"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/roster_agility"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/roster_pass"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="match_parent"
+                android:padding="3dip"
+                android:text="@string/roster_armour"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="123dp"
+                android:layout_height="match_parent"
+                android:padding="3dip"
+                android:text="@string/roster_cost"
+                android:textColor="@color/white"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/totalTxt"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="268dp"
+        android:layout_marginTop="712dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="18dp"
+        android:text="@string/total_string"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Total" />
+
+</RelativeLayout>
